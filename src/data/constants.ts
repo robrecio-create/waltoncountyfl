@@ -1,12 +1,11 @@
 export const towns = [
+  { name: 'DeFuniak Springs', slug: 'defuniak-springs', businesses: 0 },
   { name: 'Santa Rosa Beach', slug: 'santa-rosa-beach', businesses: 0 },
-  { name: 'Defuniak Springs', slug: 'defuniak-springs', businesses: 0 },
-  { name: 'Miramar Beach', slug: 'miramar-beach', businesses: 0 },
   { name: 'Freeport', slug: 'freeport', businesses: 0 },
-  { name: 'Inlet Beach', slug: 'inlet-beach', businesses: 0 },
-  { name: 'Seaside', slug: 'seaside', businesses: 0 },
+  { name: 'Paxton', slug: 'paxton', businesses: 0 },
+  { name: 'Miramar Beach', slug: 'miramar-beach', businesses: 0 },
+  { name: 'Rosemary Beach', slug: 'rosemary-beach', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
